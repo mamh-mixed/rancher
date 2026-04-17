@@ -224,6 +224,13 @@ var (
 		false,
 		true,
 	)
+	AutoHideLocalAuthProvider = newFeature(
+		"auto-hide-local-auth-provider",
+		"Hide the local auth provider when external auth provider is active",
+		false,
+		true,
+		true,
+	)
 )
 
 func ListEnabled() []string {
